@@ -1,0 +1,62 @@
+.container-fluid-roboto {
+    width: 100%;
+}
+
+.row-roboto {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-roboto {
+    width: 100%;
+}
+
+.col-50-roboto {
+    width: 49%;
+}
+.col-50-roboto {
+    width: 49%;
+}
+
+@media all and (min-width: $xs) {
+    .col-xs-33p {
+        width: 33%;
+    }
+
+    .col-xs-50p {
+        width: 49%;
+    }
+}
+
+@media all and (min-width: $md) {
+    .col-md-33p {
+        width: 33.33%;
+    }
+
+    .col-md-50p {
+        width: 50%;
+    }
+
+    .col-md-66p {
+        width: 66.66%;
+    }
+}
+
+@media all and (min-width: $lg) {
+    .col-lg-14p {
+        width: 14%;
+    }
+    
+    .col-lg-17p {
+        width: 17.5%;
+    }
+
+    .col-lg-25p {
+        width: 25%;
+    }
+
+    .col-lg-30p {
+        width: 30%;
+    }
+
+}

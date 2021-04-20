@@ -1,0 +1,53 @@
+.logotyp {
+    background-color: $black-color;
+
+    .container-fluid-roboto {
+        .row-roboto {
+            justify-content: start;
+            align-items: center;
+
+            .partner {
+                border-top-right-radius: 600px;
+                border-bottom-right-radius: 600px;
+                background-color: $secondary-color;
+                padding-left: 50px;
+                padding-top: 2rem;
+                padding-bottom: 2rem;  
+        
+                h2 {
+                    font-weight: bold;
+                }
+                
+            }
+        
+            .logo {
+                padding: 0 1rem;
+                background-color: $black-color;
+                padding-top: 2rem;
+                padding-bottom: 2rem;
+            }
+        }
+
+     }
+}
+    
+
+@media all and (min-width: $lg) {
+    .logotyp {
+
+        .partner {
+            padding-left: 132px;
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+
+            h2 {
+                font-size: 3rem;
+            }
+        }
+
+        .logo {
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+        }
+    }
+}

@@ -1,0 +1,65 @@
+.swiper-container {
+    width: 100%;
+    height: 85vh;
+    position: relative;
+}
+
+.swiper-slide {
+    padding: 0 50px;
+    text-align: left;
+    position: relative;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    background-size: cover; 
+    background-position: center;
+    flex-wrap: wrap;
+
+    &.overlay {
+        position: absolute;
+        opacity: rgba(0, 0, 0, .2);
+        width: 100%;
+        height: 85vh;
+    }
+
+    h1 {
+        color: white;
+        font-weight: bold;
+    }
+
+    button {
+        padding: .6rem 2rem;
+    }
+}
+
+@media all and (min-width: $md) {
+
+    .swiper-container {
+        .swiper-slide {
+            padding-left: 132px;
+            padding-right: 132px;
+            h1 {
+                font-size: 5rem;
+            }
+    
+            button {
+                font-size: 1.2rem;
+            }
+
+        }
+
+    }
+}
+
+

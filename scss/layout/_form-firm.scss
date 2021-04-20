@@ -1,0 +1,61 @@
+.form-firm {
+
+   padding: 100px 50px;
+ 
+    .form-img {
+        display: none;
+    }
+
+   .form-content {
+        h1 {
+            font-weight: 700 !important;
+            margin-bottom: 2rem;
+        }
+    }
+
+   form {
+       input, 
+       textarea {
+           background-color: #f5f5f5;
+       }
+
+   }
+
+}
+
+.form-message {
+    color: red;
+}
+
+.errors {
+
+    border-bottom: 1px solid #f00;
+}
+
+@media all and (min-width: $md) {
+    .form-firm {
+        padding-top: 140px;
+        padding-right: 135px;
+        padding-bottom: 0;
+        padding-left: 0;
+
+        .form-content {
+            h1 {
+                font-size: 3.3rem;
+            }
+        }
+
+        .form-img {
+                margin-top: 18rem;
+               padding-left: 0;
+               display: block;
+        
+               img {
+                width: 80%;
+               }
+           }
+
+     }
+
+
+}
